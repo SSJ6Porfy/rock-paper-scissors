@@ -58,13 +58,7 @@ class LoginForm extends React.Component {
                     </View>
                 </View>
             <View style={styles.photoContainer}>
-                <Image
-                    style={{ width: 200, height: 120 }}
-                    source={require('../../../media/Logo.png')}
-                ></Image>
-                <Text style={styles.logoFontRed}>e-
-                    <Text style={styles.logoFontBlue}>Contribution Card</Text>
-                </Text>
+                <Text style={styles.logoFontRed}>Gimme5</Text>
             </View>
             <TouchableOpacity 
                 style={styles.fbButton}>
@@ -99,7 +93,7 @@ const styles = StyleSheet.create({
     },
     header: {
       flexDirection: 'row',
-      backgroundColor: "red",
+      backgroundColor: '#4696ec',
       alignItems: 'center',
       justifyContent: 'center',
       width: Window.width,
@@ -119,7 +113,7 @@ const styles = StyleSheet.create({
     logoFontRed: {
         marginTop: 15,  
         fontSize: 35,
-        color: 'red'
+        color: '#4696ec'
     },
     logoFontBlue: {
         marginTop: 15,  
